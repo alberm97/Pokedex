@@ -1,0 +1,105 @@
+.pokemon {
+    font-size: 50px;
+    text-align: center;
+}
+
+.imagen-con-desenfoque {
+    transition: filter 0.3s ease-in-out;
+}
+
+/* Efecto de desenfoque al pasar el cursor */
+.imagen-con-desenfoque:hover {
+    filter: blur(5px);
+    /* Ajusta el valor de blur según tus preferencias */
+}
+
+.planta {
+    background-color: seagreen;
+    text-align: center;
+    color: rgb(161, 228, 161);
+    border: 10px solid rgb(1, 43, 1);
+}
+
+.fuego {
+    background-color: orange;
+    text-align: center;
+    color: red;
+    border: 10px solid rgb(75, 1, 1);
+}
+
+.agua {
+    background-color: aqua;
+    text-align: center;
+    color: blue;
+    border: 10px solid rgb(2, 2, 82);
+}
+
+.electrico {
+    background-color: yellow;
+    text-align: center;
+    color: rgb(73, 73, 0);
+    border: 10px solid rgb(95, 86, 1);
+}
+
+.veneno {
+    background-color: rgb(132, 0, 255);
+    text-align: center;
+    color: rgb(199, 109, 252);
+    border: 10px solid rgb(57, 1, 83);
+}
+
+.dragon {
+    background-color: yellow;
+    text-align: center;
+    color: red;
+    border: 10px solid rgb(71, 1, 1);
+}
+
+.volador {
+    background-color: rgb(38, 0, 255);
+    text-align: center;
+    color: white;
+    border: 10px solid rgb(33, 33, 75);
+}
+
+.lucha {
+    background-color: white;
+    text-align: center;
+    color: rgb(41, 37, 37);
+    border: 10px black;
+}
+
+.psiquico {
+    background-color: rgb(255, 0, 242);
+    text-align: center;
+    color: white;
+    border: 10px solid purple;
+}
+
+.roca {
+    background-color: brown;
+    text-align: center;
+    color: rgb(58, 18, 18);
+    border: 10px solid rgb(34, 9, 9);
+}
+
+.acero {
+    background-color: grey;
+    text-align: center;
+    color: rgb(223, 204, 204);
+    border: 10px solid rgb(58, 57, 57);
+}
+
+.bicho {
+    background-color: green;
+    text-align: center;
+    color: greenyellow;
+    border: 10px solid rgb(0, 48, 0);
+}
+
+.normal {
+    background-color: rgb(243, 188, 117);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 10px solid rgb(145, 114, 57);
+}
